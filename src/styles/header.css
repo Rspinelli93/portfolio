@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%
+}
+
+.logo {
+    width: 8%;
+}
+
+.menu-logo {
+    width: 2%;
+    cursor: pointer;
+}
+.mail-logo {
+    width: 100%;
+
+}
+a {
+    width: 2%;
+    height: auto;
+}

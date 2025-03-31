@@ -1,0 +1,39 @@
+
+.hello__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.scroll-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.fullstack, .in-the-making{
+    padding: 1%;
+    margin: 0%;
+    font-weight: bold;
+}
+
+.arrow-right {
+    transform: rotate(120deg);
+}
+.arrow-left {
+    transform: rotate(-120deg) scaleX(-1);
+    
+}
+
+.arrow-left, .arrow-right {
+    width: 20%;
+}
+
+.know-me {
+    color: #aa5ee0;
+}

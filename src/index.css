@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: poppins, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1e201e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 2.1em;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
+}
+p{
+  font-size: 1.2em;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+section{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+
+.section-div{
+  padding: 5%
+}
+.section-div-dotted {
+  padding: 5%;
+  position: relative;
+}
+
+.section-div-dotted::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.8) 1px, transparent 0);
+  background-size: 15px 15px;
+  
+  mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 55%);
+  -webkit-mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 55%);
+  
+  pointer-events: none;
+  z-index: -1;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+.font-playfair-italic {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+.text-green {
+  color: #46ff48;
+}
+.text-purple {
+  color: #aa5ee0;
+}
+
