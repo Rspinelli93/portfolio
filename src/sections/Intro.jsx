@@ -2,7 +2,7 @@ import '../styles/intro.css';
 
 const Intro = () => { 
     return (
-    <div id="intro" className="section-div-dotted">
+    <div id="intro" className="section-div-dotted-right">
         <div className="intro__container">
             <div className="intro__title-container">
                 <h2 className="intro__title">A BRIEF</h2>

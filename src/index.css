@@ -24,16 +24,16 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2rem;
   line-height: 1.1;
 }
 h2 {
-  font-size: 2.1em;
+  font-size: 3.1rem;
   line-height: 1.1;
   letter-spacing: 0.05em;
 }
 p{
-  font-size: 1.2em;
+  font-size: 1.3rem;
   line-height: 1.5;
   letter-spacing: 0.05em;
 }
@@ -46,14 +46,16 @@ section{
 
 
 .section-div{
-  padding: 5%
+  padding: 5%;
+  height: fit-content;
 }
-.section-div-dotted {
+
+.section-div-dotted-right {
   padding: 5%;
   position: relative;
 }
 
-.section-div-dotted::before {
+.section-div-dotted-right::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -64,6 +66,46 @@ section{
   -webkit-mask-image: linear-gradient(to top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 55%);
   
   pointer-events: none;
+  z-index: -2;
+}
+
+.section-div-dotted-left {
+  padding: 5%;
+  position: relative;
+}
+
+.section-div-dotted-left::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.8) 1px, transparent 0);
+  background-size: 15px 15px;
+  
+  mask-image: linear-gradient(to bottom right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 55%);
+  -webkit-mask-image: linear-gradient(to top right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 55%);
+  
+  pointer-events: none;
+  z-index: -2;
+}
+.centered-box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 30%;
+  background-color: #3c3d37;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.centered-box2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 40%;
+  background-color: #3c3d37;
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 

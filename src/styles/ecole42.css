@@ -1,0 +1,68 @@
+.ecole42-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ecole42-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ecole42-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ecole42-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ecole42-subtitle {
+    background-color: #3c3d37;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.ecole42-bottom p {
+    line-height: 1.6;
+    text-align: center;
+    width: 80%;
+}
+.ecole42-middle p {
+    line-height: 1.6;
+    text-align: left;
+}
+
+img[alt="ecole42_logo"] {
+    width: 15%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img[alt="ecole42_logo"]:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+img[alt="ecole42_campus"] {
+    width: 40%;
+}
+img[alt="ecole42_black_hole"] {
+    margin-bottom: 3%;
+    width: 50%;
+}
