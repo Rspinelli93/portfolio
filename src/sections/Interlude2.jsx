@@ -8,7 +8,7 @@ const Interlude2 = () => {
                     <h2 className="interlude2-title"><span className='font-playfair-italic'>BUILDING MY <span className='text-purple'>FUTURE</span></span></h2>
                 </div>
                 <div className="interlude2-bottom">
-                    <h3 className="interlude2-text">{"<!-- ONE LINE OF "}<span className='text-green'>CODE</span>{"< AT A TIME -->"}</h3>
+                    <h3 className="interlude2-text">{"<!-- ONE LINE OF "}<span className='text-green'>CODE</span>{" AT A TIME -->"}</h3>
                 </div>
             </div>
             <div className="centered-box2" ></div>

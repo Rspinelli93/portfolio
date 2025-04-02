@@ -13,6 +13,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 8%
 }
 
 body {
@@ -104,6 +105,17 @@ section{
   left: 50%;
   width: 40%;
   height: 40%;
+  background-color: #3c3d37;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.centered-box3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
   background-color: #3c3d37;
   transform: translate(-50%, -50%);
   z-index: -1;
